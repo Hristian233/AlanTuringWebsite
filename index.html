@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<title>The Turing Test - INM</title>
+	<link rel="stylesheet" href="css/design.css" />
+	<script src="js/javascript.js"></script>
+</head>
+<body onload="documentReady()">
+	
+	<div id="responsiveNavi">
+	  <button class="navTab" id="nav_index_resp">About the Turing Test</button>
+	  <button onclick="location.href='content/page1.html'" class="navTab" >Versions of the Turing Test</button>
+	  <button onclick="location.href='content/page2.html'" class="navTab" >Alan Turing</button>
+	  <button onclick="location.href='content/page4.html'" class="navTab">strengths and weaknesses</button>
+	  <div class="closeTab_responsiveNav" onclick="closeNavigation()">close</div>
+	</div>
+	
+	<div id="popUpBackground">
+	  <div class="popUp">
+	      <div id="popUp_close" onclick="close_PopUp()">close</div>
+	      <h3>Welcome to the Alan Turing website...!</h3>
+	  </div>
+	</div>
+	
+	<div id="multiplicatorBackground">
+	  <div class="windowMultiplicator">
+	    <div class="windowMultiplicator_head">
+		BEST MULTIPLICATOR EVER
+		<div class="close_windowMultiplicator_head" onclick="closeMultiplicator()">close</div>
+	    </div>
+	    <div class="numberBox">
+		<span>Enter some numbers to multiplicate (max. 4)</span>
+		<input type="text" id="inputNumbers" placeholder="input 4 numbers" maxlength="4" />
+		<button type="submit" id="buttonMultiplication">calculate</button>
+		<div class="numberBox_bottom">Input from 0 to 9</div>
+	    </div>
+	    <div id="numberBox_boxOutput">456</div>
+	  </div>
+	</div>
+	
+	<section id="wrapper">		
+		<header class="header">
+			<h1>
+			The Turing Test
+			<img src="img/header_pic.jpeg" alt="headerPic"/>
+			</h1>		
+		</header>
+		
+		<div class="main_navigation_left">
+		    <div class="box_clock">
+			<div id="box_clock_time"></div>
+			<div id="box_clock_date"></div>
+		    </div>
+		    <nav class="navigation">				
+		      <button class="navTab" id="nav_index">About the Turing Test</button>
+		      <button onclick="location.href='content/page1.html'" class="navTab" >Versions of the Turing Test</button>
+		      <button onclick="location.href='content/page2.html'" class="navTab" >Alan Turing</button>
+		      <button onclick="location.href='content/page4.html'" class="navTab">strengths and weaknesses</button>
+		    </nav>
+		    <div id="naviButton">&equiv;</div>
+		</div>
+		
+		<div class="main">
+			<div class="main_content">
+			    <div class="main_content_pos">			
+				<h2>What is the Turing Test?</h2>
+				<hr>
+				<div class="boxMain_content">		
+				    <div class="box_yt_video">
+					<iframe class="yt_video" src="https://www.youtube.com/embed/sXx-PpEBR7k" allowfullscreen></iframe>
+				    </div>
+				    
+				    <p>
+					The Turing test is a test which shows if a machine's conduct can be as intelligent as a human's or indiscernibly intelligent from a human's.<br> 
+					Alan Turing suggested that a judge would evaluate a dialogue between a human and a machine in their natural tongue, 
+					whereas the machine's concept is to generate human-like responses.<br><br>  
+					Whoever would evaluate, would be taken under consideration that there a two participants and one of them is a machine. However the participants will be split from each other.
+					The means for the conversation will be limited to texting only, which means the conversation would involve a computer keyboard and a screen. 
+					This makes the assessment independable from the machine's skills for rendering words as speech.<br><br>  
+					Anyways if the assessor is not completely sure about  the difference between the machine and the human the machine is considered to have passed the test 
+					(according to Alan Turin the machine would persuade a human around 70% of the time in about five minutes after the conversation has started).<br> 
+					However the point of the whole test is not to verify if a machine has the ability of giving correct answer, 
+					but to see how similiar the answer would be to a one given by human.<br> 
+					Alan Turing represented the test for the first time in his paper "Computing Machinery and Intelligence" from 1950.<br>  
+					During this time he was working at The University of Manchester.
+					The opening words of his paper are: "I propose to consider the question, 'Can machines think?'" because "thinking" is difficult to define.<br>  
+					Turing chooses to "replace the question by another, which is closely related to it and is expressed in relatively unambiguous words. 
+					"Turing's new question is: "Are there imaginable digital computers which would do well in the imitation game?".<br>  
+					This is question which Turing actually belived is answerable.<br> 
+					The first introducer of the test was Turing himself.<br>  
+					The test is considered to be both really influencing and really criticised and is now an important idea in the philosophy of artificial intelligence.
+				    </p>
+				    
+				</div>
+				<div class="main_content_bottom"></div>	
+			    </div>
+			</div>
+						
+		</div>
+		
+		<aside class="main_furtherReading_right">
+		    <div class="main_furtherReading_right_box_calc"> 
+		      <span>check this gadget ...!</span>
+		      <button class="numberBox_OpenWindow" onclick="callMultiplicator()">Multiplicator</button>
+		      <div class="main_furtherReading_right_box_calc_bottom"></div>
+		    </div>
+		    <div class="main_furtherReading_right_block">
+			-> Read more on Wikipedia
+			<a href="https://en.wikipedia.org/wiki/Turing_test" target="blank">https://en.wikipedia.org</a>
+			<div class="main_furtherReading_right_block_bottom"></div>
+		    </div>
+		    <div class="main_furtherReading_right_block">
+			-> Scrapbook
+			<a href="http://www.turing.org.uk/scrapbook/test.html" target="blank">http://www.turing.org.uk/scrapbook</a> 
+			<div class="main_furtherReading_right_block_bottom"></div>
+		    </div>
+		    <div class="main_furtherReading_right_block">
+			-> The truth about the Turing Test
+			<a href="http://www.bbc.com/future/story/20150724-the-problem-with-the-turing-test" target="blank">http://www.bbc.com</a> 
+			<div class="main_furtherReading_right_block_bottom"></div>
+		    </div>
+		    <div class="main_furtherReading_right_block">
+			-> Computer Passes Turing Test For First Time in History, Artificial Intelligence Officially Here 
+			<a href="https://www.youtube.com/watch?v=hQtaiXOO4fo" target="blank">https://www.youtube.com</a> 
+			<div class="main_furtherReading_right_block_bottom"></div>
+		    </div>
+		</aside>
+		
+	</section>
+		
+
+	
+</body> 
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<title>The Turing Test - INM</title>
+	<link rel="stylesheet" href="../css/design.css" />
+	<script src="../js/javascript.js"></script>
+</head>
+<body onload="documentReady()">
+	
+	<div id="responsiveNavi">
+	  <button onclick="location.href='../index.html'" class="navTab" id="pos_button_index_resp">About the Turing Test</button>
+	  <button onclick="location.href='page1.html'" class="navTab" >Versions of the Turing Test</button>
+	  <button class="navTab" id="nav_page2_resp" >Alan Turing</button>
+	  <button onclick="location.href='page4.html'"  class="navTab">strengths and weaknesses</button>
+	  <div class="closeTab_responsiveNav" onclick="closeNavigation()">close</div>
+	</div>
+	
+	<div id="multiplicatorBackground">
+	  <div class="windowMultiplicator">
+	    <div class="windowMultiplicator_head">
+		THE BEST MULTIPLICATOR EVER
+		<div class="close_windowMultiplicator_head" onclick="closeMultiplicator()">close</div>
+	    </div>
+	    <div class="numberBox">
+		Enter some numbers to multiplicate (max. 4)
+		<input type="text" id="inputNumbers" placeholder="input 4 numbers" maxlength="4" />
+		<button type="submit" id="buttonMultiplication">calculate</button>
+		<div class="numberBox_bottom">Input from 0 to 9</div>
+	    </div>
+	    <div id="numberBox_boxOutput">456</div>
+	  </div>
+	</div>
+
+	<section id="wrapper">		
+		<header class="header">
+			<h1>
+				The Turing Test
+				<img src="../img/header_pic.jpeg" alt="headerPic"/>
+			</h1>
+		</header>
+		
+		<div class="main_navigation_left">
+		    <div class="box_clock">
+			<div id="box_clock_time"></div>
+			<div id="box_clock_date"></div>
+		    </div>
+		    <nav class="navigation">				
+		      <button onclick="location.href='../index.html'" class="navTab" id="pos_button_index">About the Turing Test</button>
+		      <button onclick="location.href='page1.html'" class="navTab" >Versions of the Turing Test</button>
+		      <button class="navTab" id="nav_page2" >Alan Turing</button>
+		      <button onclick="location.href='page4.html'"  class="navTab">strengths and weaknesses</button>
+		    </nav>
+		    <div id="naviButton">&equiv;</div>
+		</div>
+		
+		<div class="main">
+			<div class="main_content">
+			    <div class="main_content_pos">
+				<h2>About Alan Turing</h2>
+				<hr>		
+				<div class="boxMain_content">					
+					<div class="page3_box_alanturing">
+						<img class="alanturingJpg" src="../img/AlanTuring.jpg" alt="Alan Turing"/>
+						<ul class="aboutAlan">
+							<li>
+								<span>Born</span>  	
+								Alan Mathison Turing
+								23 June 1912
+								Maida Vale, London, England
+							</li>
+							<li>
+								<span>Died</span> 7 June 1954 (aged 41)
+								Wilmslow, Cheshire, England
+								</li>
+							<li>
+								<span>Residence</span>
+								Wilmslow, Cheshire, England
+							</li>
+							<li>
+								<span>Nationality</span>
+								British
+							</li>
+							<li>
+								<span>Fields</span>
+								Mathematics, cryptanalysis, logic, computer science, mathematical and theoretical biology
+							</li>
+						</ul>
+					</div>					
+					<p>
+					Alan Mathison Turing was a British mathematician, theoretical biologist, pioneering computer scientist, cryptanalyst and logician.<br><br>
+					His developments in computer science were highly influential, 
+					giving us a main idea of algorithm and how to computate with the Turing machine which really resembles an example of a computer with general purpose computer.<br>
+					Alan Turing is told to be the father of artificial intelligence and theoretical computer science.<br>
+					Alan Turing worked for the Government Code and Cypher School at Bletchley Park, during WW2, which is considered to be Britain's cryptanalysis center.
+					During that time he was working on an electromechanical machine that could find settings for the Enigma machine. 
+					He also had specific skills for cracking German ciphers.<br><br>
+					Turing's skills were of great importance while breaking intercepted coded messages, which led the Allies to winning lots of fatal engagements against the Nazis, 
+					including the so-called Battle of the Atlantic.<br> According to assessments his work is the reason for shortening  the war Europe with 2 to 4 years.
+					When the war was ended he became one of the first designers of a stored-program computer with his ACE, which he designed while working at he National Physical Laboratory . 
+					His interest in mathematical biology used  to grow and he also inventedthe Manchester computers, 
+					while working  at the Max Newman's Computing Laboratory at the University of Manchester.<br>
+					Alan Turing was pursued for homosexual acts in 1952 because such a conduct was against the law in the  UK at this time.<br><br>
+					Turing died in 1954 two weeks before his 42nd birthday. 
+					The cause of death was prussiate poisoning. A investigation shown that his death was a suicide, 
+					however it was marked that the known evidence for a suicide is equally consistent with accidental poisoning.
+					An internet campaign took place in 2009, where the British Prime Minister Gordon Brown apologized for "the appalling way he was treated".<br>  
+					In 2013 Queen Elizabeth II granted him a pardon.
+					</p>						
+				</div>
+				<div class="main_content_bottom"></div>
+			    </div>
+			</div>
+			
+		</div>	
+		
+		<aside class="main_furtherReading_right">
+		    <div class="main_furtherReading_right_box_calc"> 
+		      <span>check this gadget ...!</span>
+		      <button class="numberBox_OpenWindow" onclick="callMultiplicator()">Multiplicator</button>
+		      <div class="main_furtherReading_right_box_calc_bottom"></div>
+		    </div>
+		    <div class="main_furtherReading_right_block">
+			-> Read more on Wikipedia
+			<a href="https://en.wikipedia.org/wiki/Turing_test" target="blank">https://en.wikipedia.org</a>
+			<div class="main_furtherReading_right_block_bottom"></div>
+		    </div>
+		    <div class="main_furtherReading_right_block">
+			-> Scrapbook
+			<a href="http://www.turing.org.uk/scrapbook/test.html" target="blank">http://www.turing.org.uk/scrapbook</a> 
+			<div class="main_furtherReading_right_block_bottom"></div>
+		    </div>
+		    <div class="main_furtherReading_right_block">
+			-> The truth about the Turing Test
+			<a href="http://www.bbc.com/future/story/20150724-the-problem-with-the-turing-test" target="blank">http://www.bbc.com</a> 
+			<div class="main_furtherReading_right_block_bottom"></div>
+		    </div>
+		    <div class="main_furtherReading_right_block">
+			-> Computer Passes Turing Test For First Time in History, Artificial Intelligence Officially Here 
+			<a href="https://www.youtube.com/watch?v=hQtaiXOO4fo" target="blank">https://www.youtube.com</a> 
+			<div class="main_furtherReading_right_block_bottom"></div>
+		    </div>
+		</aside>
+		
+	</section>
+
+
+	
+</body> 
+</html>

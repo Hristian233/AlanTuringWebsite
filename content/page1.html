@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<title>The Turing Test - INM</title>
+	<link rel="stylesheet" href="../css/design.css" />
+	<script src="../js/javascript.js"></script>
+</head>
+<body onload="documentReady()">
+	
+	<div id="responsiveNavi">
+	  <button onclick="location.href='../index.html'" class="navTab" id="pos_button_index_resp">About the Turing Test</button>
+	  <button class="navTab" id="nav_page1_resp">Versions of the Turing Test</button>
+	  <button onclick="location.href='page2.html'" class="navTab" >Alan Turing</button>
+	  <button onclick="location.href='page4.html'"  class="navTab">strengths and weaknesses</button>
+	  <div class="closeTab_responsiveNav" onclick="closeNavigation()">close</div>
+	</div>
+	
+	<div id="multiplicatorBackground">
+	  <div class="windowMultiplicator">
+	    <div class="windowMultiplicator_head">
+		THE BEST MULTIPLICATOR EVER
+		<div class="close_windowMultiplicator_head" onclick="closeMultiplicator()">close</div>
+	    </div>
+	    <div class="numberBox">
+		Enter some numbers to multiplicate (max. 4)
+		<input type="text" id="inputNumbers" placeholder="input 4 numbers" maxlength="4" />
+		<button type="submit" id="buttonMultiplication">calculate</button>
+		<div class="numberBox_bottom">Input from 0 to 9</div>
+	    </div>
+	    <div id="numberBox_boxOutput">456</div>
+	  </div>
+	</div>
+
+	<section id="wrapper">		
+		<header class="header">
+			<h1>
+				The Turing Test
+				<img src="../img/header_pic.jpeg" alt="headerPic"/>
+			</h1>
+		</header>
+		
+		<div class="main_navigation_left">
+		    <div class="box_clock">
+			<div id="box_clock_time"></div>
+			<div id="box_clock_date"></div>
+		    </div>
+		    <nav class="navigation">				
+		      <button onclick="location.href='../index.html'" class="navTab" id="pos_button_index">About the Turing Test</button>
+		      <button class="navTab" id="nav_page1">Versions of the Turing Test</button>
+		      <button onclick="location.href='page2.html'" class="navTab" >Alan Turing</button>
+		      <button onclick="location.href='page4.html'"  class="navTab">strengths and weaknesses</button>
+		    </nav>
+		    <div id="naviButton">&equiv;</div>
+		</div>
+		
+		<div class="main">
+			<div class="main_content">
+			    <div class="main_content_pos">
+				<h2>Versions of the Turing Test</h2>
+				<hr>		
+				<div class="boxMain_content">				
+					<p>
+					According to Saul Traiger there are at least three versions of the Turin test, 
+					one of them is called "Standard Interpretation" and the other two are offered in "Computing Machinery and Intelligence".<br> 
+					There is also an argue about the three versions of the Turing machines and more specifically that they 
+					shouldn't be considered equivalent and that they have different strengths and weaknesses.                                            
+					Huma Shah stated that Turing himself didn't know for sure if a machine can think and decided to test this, 
+					using a simple method: the test involved human-machine question-answer sessions.<br>
+					The Turing test is actually a test about indistinguishability in performance capacity the verbal version which 
+					generalises in a natural way to a  human's performance capacity, verbal as well as nonverbal (robotic).
+					</p>
+					<h3>Imitation Game</h3>
+					<p>
+					The original game of Turing involved three participants and was a simple party game.<br> 
+					The three participants - A, B and C were a man, a woman and C was the interrogator -  whether a man or a woman . 
+					Players A and B remain hidden from C and C can only communicate with them using written notes. C's goal is to define which of them is the man and which is the woman. 
+					While playing the game A tries to trick C and lead it to the wrong conclusion and B is trying to help C making the right decision.<br> 
+					Turing proposed the role of A to be taken by a computer and to pretend it's a woman in order to trick the interrogator to make a wrong decision. 
+					The computer's success was defined by making a comparison between the result of the game when A is a computer and the result of the game when A is a man.<br><br>
+					According to Turing if the questioner makes the same amount of mistakes with a computer as he makes with a man or a woman the computer is considered intelligent. 
+					The second version of the game was brought to light in Turing's 1950 paper. 
+					The game was very similar to the Original Imitation Game Test, where a computer performs the role of participant A. 
+					But B's role is however played by a  man not by a woman 
+					Standard interpretation
+					General belief brings up  the point that the Turing test is not about determining whether the computer can trick the questioner letting him think the it is a human, 
+					but rather whether a computer could imitate a human.<br><br>
+					According to some statements it is believed that this version interferes with the second one, 
+					while according to other it doesn't - namely because this is the so-called standard interpretation, where A is a computer and B is whether a man or a woman. 
+					The role of the questioner is to define which is the computer and which is the human, but not which is male and which is female.<br> 
+					The general problem with the version standard interpretation is that the negotiator cannot distinguish the human from the machine. 
+					There are issues about continuance, whereas this limitation is considered reasonable by the standard interpretation.
+					</p>
+					<h3>Imitation Game vs. Standard Turing Test</h3>
+					<p>
+					The different formulations of the Turing test have led to a Controversy. 
+					Sterrett states that the two tests can be taken out of his 1950 paper and that they're not the same. 
+					The "Original Imitation Game Test" is the test involving a party game and a result comparison.<br>
+					Meanwhile the "Standard Turing Test" is the one involving human assessor and a conversation with a human and a machine.<br><br> 
+					Sterrett also defines a huge difference between the STT and OIG. 
+					Unlike the STT the OIG, does not make similarity to human performance the criterion, 
+					even though it employs human performance in setting a criterion for machine intelligence.<br>
+					A man can fail the OIG Test, but it was proofed that failure indicates a lack of resourcefulness: 
+					What the OIG test requires is the intelligence and not merely "simulation of human conversational behaviour".<br>
+					The general structure of the OIG Test could also be used with versions of imitation games, which are not verbal.
+					Saygin's suggestion was that maybe the game which is original could be used for proposing a 
+					design which is less biased experimental as it hides the participation of the computer.<br>
+					A "social hack" is also included in the imitation game which is not to be found in the standard interpretation, 
+					as in the game both male human and computer are required to play as pretending to be the what they are not.
+					</p>
+				</div>
+				<div class="main_content_bottom"></div>
+			    </div>
+			</div>
+			
+		</div>
+		
+		<aside class="main_furtherReading_right">
+		    <div class="main_furtherReading_right_box_calc"> 
+		      <span>check this gadget ...!</span>
+		      <button class="numberBox_OpenWindow" onclick="callMultiplicator()">Multiplicator</button>
+		      <div class="main_furtherReading_right_box_calc_bottom"></div>
+		    </div>
+		    <div class="main_furtherReading_right_block">
+			-> Read more on Wikipedia
+			<a href="https://en.wikipedia.org/wiki/Turing_test" target="blank">https://en.wikipedia.org</a>
+			<div class="main_furtherReading_right_block_bottom"></div>
+		    </div>
+		    <div class="main_furtherReading_right_block">
+			-> Scrapbook
+			<a href="http://www.turing.org.uk/scrapbook/test.html" target="blank">http://www.turing.org.uk/scrapbook</a> 
+			<div class="main_furtherReading_right_block_bottom"></div>
+		    </div>
+		    <div class="main_furtherReading_right_block">
+			-> The truth about the Turing Test
+			<a href="http://www.bbc.com/future/story/20150724-the-problem-with-the-turing-test" target="blank">http://www.bbc.com</a> 
+			<div class="main_furtherReading_right_block_bottom"></div>
+		    </div>
+		    <div class="main_furtherReading_right_block">
+			-> Computer Passes Turing Test For First Time in History, Artificial Intelligence Officially Here 
+			<a href="https://www.youtube.com/watch?v=hQtaiXOO4fo" target="blank">https://www.youtube.com</a> 
+			<div class="main_furtherReading_right_block_bottom"></div>
+		    </div>
+		</aside>
+		
+	</section>
+	
+
+</body> 
+</html>
