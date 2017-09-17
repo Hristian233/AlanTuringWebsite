@@ -57,7 +57,7 @@ return false;
 }
 
 
-//popUp Window schließen
+//close popup window
 function close_PopUp(){
    document.getElementById("popUpBackground").style.display = 'none';
 return false; 
