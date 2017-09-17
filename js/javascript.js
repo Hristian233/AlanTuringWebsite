@@ -1,6 +1,6 @@
 function documentReady(){
   
-  //DATUM
+  //Date
   function updateDate(){
 	var date = new Date();
 	var dateYear = date.getFullYear();
@@ -12,7 +12,7 @@ function documentReady(){
   
   updateDate();
   
-  //UHRZEIT
+  //Time
   function updateTime(){
     
     var date = new Date();
